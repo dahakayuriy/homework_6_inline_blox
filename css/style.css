@@ -1,0 +1,86 @@
+@import url("reset.css");
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.first-box {
+  background: yellow;
+  font-size: 0;
+}
+
+.first-box div,
+.second-box div,
+.third-box div {
+  outline: 2px solid red;
+}
+
+.first-box > div {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.second-box {
+  font-size: 0;
+  background: rgb(6, 197, 231);
+}
+
+.second-box > div {
+  display: inline-block;
+  width: 800px;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.second-box > div > div {
+  height: 200px;
+}
+
+.second-box > div + div {
+  width: 400px;
+}
+
+.second-box > div + div > div {
+  height: 133.333px;
+}
+
+.third-box {
+  background: orange;
+  font-size: 0;
+}
+
+.third-box > div {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.third-box-one {
+  width: 400px;
+  height: 400px;
+}
+
+.third-box-two {
+  width: 800px;
+}
+
+.third-box-two > div {
+  height: 200px;
+}
+
+.third-box-three {
+  font-size: 0;
+}
+
+.third-box-three > div {
+  font-size: 20px;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+}
+
+.third-box-four > div {
+  height: 100px;
+}
